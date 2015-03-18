@@ -1,2 +1,59 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<ClassDiagram /> 
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Product.Domain.Model.Category.Category">
+    <Position X="0.75" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAgAAAAAAAAAAQAAAAAAAAAAAAAAAACAAQ=</HashCode>
+      <FileName>Model\Category\Category.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Property Name="Products" />
+      <Property Name="Properties" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="Product.Domain.Model.Category.Property">
+    <Position X="1.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAgAAAACAA=</HashCode>
+      <FileName>Model\Category\Property.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Category" />
+      <Property Name="Value" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Product.Domain.Model.Category.PropertyValue">
+    <Position X="1.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAA=</HashCode>
+      <FileName>Model\Category\PropertyValue.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Product.Domain.Model.Product.Product">
+    <Position X="3.75" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAQAAAAAAAAAAgAAAAAAAAAAAAAAAgAACCAA=</HashCode>
+      <FileName>Model\Product\Product.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Category" />
+      <Property Name="Price" />
+      <Property Name="ProductDetails" />
+    </ShowAsAssociation>
+    <ShowAsCollectionAssociation>
+      <Property Name="Properties" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="Product.Domain.Model.Product.ProductDetails">
+    <Position X="6.75" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAhAAAAAAAAAAAAAAEQAAAAAAAAAAgAAAA=</HashCode>
+      <FileName>Model\Product\ProductDetails.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CommonObjects.ValueObjects.Price">
+    <Position X="3.75" Y="8.25" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
