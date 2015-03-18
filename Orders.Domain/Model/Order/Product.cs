@@ -1,3 +1,6 @@
+using CommonObjects;
+using CommonObjects.ValueObjects;
+
 namespace Orders.Domain.Model.Order
 {
     public class Product

@@ -46,10 +46,18 @@
     <Compile Include="Model\Order\Order.cs" />
     <Compile Include="Model\Order\OrderLine.cs" />
     <Compile Include="Model\Order\OrderStatus.cs" />
-    <Compile Include="Model\Order\Price.cs" />
     <Compile Include="Model\Order\Product.cs" />
     <Compile Include="Model\Order\Repository\IOrderRepository.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram1.cd" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\CommonObjects\CommonObjects.csproj">
+      <Project>{EFDF0C38-68B3-4FBE-9205-372D35395A58}</Project>
+      <Name>CommonObjects</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
