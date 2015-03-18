@@ -2,6 +2,8 @@
 using System.Collections.Generic;
 using System.Runtime.InteropServices;
 using System.Runtime.Remoting;
+using CommonObjects;
+using CommonObjects.ValueObjects;
 
 namespace Orders.Domain.Model.Order
 {

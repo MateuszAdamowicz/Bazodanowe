@@ -1,8 +1,8 @@
-namespace Orders.Domain.Model.Order
+﻿namespace CommonObjects.ValueObjects
 {
     public class Price
     {
-        public decimal Value { get; set; }
         public decimal Discount { get; set; }
+        public decimal Value { get; set; }
     }
 }
