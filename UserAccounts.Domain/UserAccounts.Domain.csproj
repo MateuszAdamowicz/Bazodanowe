@@ -39,7 +39,19 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Model\Customer\Customer.cs" />
+    <Compile Include="Model\Customer\Order.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\CommonObjects\CommonObjects.csproj">
+      <Project>{EFDF0C38-68B3-4FBE-9205-372D35395A58}</Project>
+      <Name>CommonObjects</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Orders.Domain\Orders.Domain.csproj">
+      <Project>{949BA0C1-EE2F-4B84-B28D-D50FBBA4B7AD}</Project>
+      <Name>Orders.Domain</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

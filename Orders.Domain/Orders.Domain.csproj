@@ -40,9 +40,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Model\Order\Address.cs" />
     <Compile Include="Model\Order\Customer.cs" />
-    <Compile Include="Model\Order\Name.cs" />
     <Compile Include="Model\Order\Order.cs" />
     <Compile Include="Model\Order\OrderLine.cs" />
     <Compile Include="Model\Order\OrderStatus.cs" />
@@ -51,13 +49,16 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="ClassDiagram1.cd" />
+    <WCFMetadata Include="Service References\" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\CommonObjects\CommonObjects.csproj">
-      <Project>{EFDF0C38-68B3-4FBE-9205-372D35395A58}</Project>
+      <Project>{efdf0c38-68b3-4fbe-9205-372d35395a58}</Project>
       <Name>CommonObjects</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram1.cd" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

@@ -39,6 +39,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ValueObjects\Address.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ValueObjects\EmailAddress.cs" />
+    <Compile Include="ValueObjects\Name.cs" />
     <Compile Include="ValueObjects\Price.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

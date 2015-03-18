@@ -1,4 +1,4 @@
-namespace Orders.Domain.Model.Order
+﻿namespace CommonObjects.ValueObjects
 {
     public class Name
     {
