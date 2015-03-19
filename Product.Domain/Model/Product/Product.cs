@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using CommonObjects;
 using CommonObjects.ValueObjects;
 
-namespace Product.Domain.Model.Product
+namespace Products.Domain.Model.Product
 {
     public class Product
     {

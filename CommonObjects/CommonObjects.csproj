@@ -46,6 +46,7 @@
     <Compile Include="ValueObjects\Name.cs" />
     <Compile Include="ValueObjects\Price.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ValueObjects\Validations.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

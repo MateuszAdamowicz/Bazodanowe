@@ -7,8 +7,8 @@
     <ProjectGuid>{01E3A4BC-6226-4519-BA0D-D93CE44E4A10}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>UserAccounts.Infrastructure</RootNamespace>
-    <AssemblyName>UserAccounts.Infrastructure</AssemblyName>
+    <RootNamespace>CustomerAccounts.Infrastructure</RootNamespace>
+    <AssemblyName>CustomerAccounts.Infrastructure</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>

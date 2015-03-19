@@ -1,7 +1,7 @@
 ﻿using System;
 using CommonObjects.ValueObjects;
 
-namespace UserAccounts.Domain.Model.Customer
+namespace CustomerAccounts.Domain.Model.Customer
 {
     public class Order
     {

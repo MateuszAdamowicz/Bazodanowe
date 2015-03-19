@@ -1,16 +1,20 @@
 ﻿using System.Collections.Generic;
+using System.Collections.Specialized;
 using CommonObjects.ValueObjects;
 
-namespace CustomerAccounts.Domain.Model.Customer
+namespace WorkerAccounts.Domain.Model.Worker
 {
-    public class Customer
+    public class Worker
     {
         public int Id { get; set; }
-        public Address Address{ get; set; }
         public Name Name { get; set; }
         public EmailAddress EmailAddress { get; set; }
-        public IEnumerable<Order> Orders { get; set; }
-        
+        public Address Address { get; set; }
+        public string PhoneNumber { get; set; }
+
+
         public Validations Validations { get; set; }
+
+        public IEnumerable<Role> Roles { get; set; }
     }
 }

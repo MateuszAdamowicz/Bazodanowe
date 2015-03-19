@@ -6,11 +6,6 @@
       <HashCode>AAACAAAAACAAAAAAAAAAAAQAAAAAAAACAAAAAAAAAAA=</HashCode>
       <FileName>Model\Order\Customer.cs</FileName>
     </TypeIdentifier>
-    <ShowAsAssociation>
-      <Property Name="Address" />
-      <Property Name="Name" />
-      <Property Name="Email" />
-    </ShowAsAssociation>
   </Class>
   <Class Name="Orders.Domain.Model.Order.Order">
     <Position X="3.5" Y="3.75" Width="1.5" />
@@ -20,7 +15,6 @@
     </TypeIdentifier>
     <ShowAsAssociation>
       <Property Name="Customer" />
-      <Property Name="Price" />
       <Property Name="Status" />
     </ShowAsAssociation>
     <ShowAsCollectionAssociation>
@@ -50,9 +44,6 @@
       <HashCode>AAACAAAAAQAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Model\Order\Product.cs</FileName>
     </TypeIdentifier>
-    <ShowAsAssociation>
-      <Property Name="Price" />
-    </ShowAsAssociation>
   </Class>
   <Class Name="CommonObjects.ValueObjects.Price">
     <Position X="3.5" Y="0.5" Width="1.5" />

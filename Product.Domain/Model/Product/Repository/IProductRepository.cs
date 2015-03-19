@@ -1,7 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 
-namespace Product.Domain.Model.Product.Repository
+namespace Products.Domain.Model.Product.Repository
 {
     public interface IProductRepository
     {

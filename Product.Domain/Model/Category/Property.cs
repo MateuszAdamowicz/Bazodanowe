@@ -1,4 +1,4 @@
-﻿namespace Product.Domain.Model.Category
+﻿namespace Products.Domain.Model.Category
 {
     public class Property
     {

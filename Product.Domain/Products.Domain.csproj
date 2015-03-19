@@ -7,7 +7,7 @@
     <ProjectGuid>{DDC4BAC8-D1AA-4A54-B444-A2EF094979A0}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Product.Domain</RootNamespace>
+    <RootNamespace>Products.Domain</RootNamespace>
     <AssemblyName>Product.Domain</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
